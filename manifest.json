@@ -1,0 +1,21 @@
+{
+    "name": "Netflix Leanback",
+    "version": "1.0",
+    "description": "Browse Netflix with ease",
+    "manifest_version": 2,
+    "permissions":[
+        "webNavigation",
+        "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://www.netflix.com/*"],
+            "exclude_matches": ["https://www.netflix.com/watch/*"],
+            "js": ["nf_browser.js"]
+        },
+        {
+            "matches": ["https://www.netflix.com/watch/*"],
+            "js": ["nf_watch.js"]
+        }
+    ]
+}
