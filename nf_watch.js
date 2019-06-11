@@ -203,7 +203,15 @@ function doKeyPress(e)
         }
         else
         {
-            return false;
+            temp = document.getElementsByClassName("BranchingInteractiveScene--choices-container");
+            if(temp.length > 0)
+            {
+                parent = temp[0];
+            }
+            else
+            {
+                return false;
+            }
         }
 
         if (e.keyCode ==  68)
