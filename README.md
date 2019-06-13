@@ -15,6 +15,6 @@ Suggested Key Layout
 |Stop|Backspace|Return to browse|
 |Channel Up|PageUp|Move left in Title Details|
 |Channel Down|PageDown|Move right in Title Details|
-|Space|Play/Pause|Pause playback|
+|Play/Pause|Space|Pause playback|
 |Rewind|Left|Skip back 10 seconds|
 |FastForward|Right|Skip forward 10 seconds|
